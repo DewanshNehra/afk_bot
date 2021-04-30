@@ -19,6 +19,7 @@ bot.loadPlugin(pvp)
 bot.loadPlugin(armorManager)
 bot.loadPlugin(pathfinder)
 bot.loadPlugin(collectBlock)
+bot.loadPlugin(mineflayerAutoEat)
 
 let mcData
 bot.once('spawn', () => {
